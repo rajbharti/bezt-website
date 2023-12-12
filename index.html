@@ -41,7 +41,7 @@
         position: relative;
         top: -123px;
       }
-      .lorem-ipsum-color {
+      .subtitle {
         color: #1e8183;
       }
       .copyright {
@@ -51,12 +51,26 @@
       }
 
       @media (max-width: 992px) {
+        .masthead .masthead-content {
+          padding-bottom: 1rem;
+        }
         .logo {
           top: -50px;
+          img {
+            width: 100px;
+          }
         }
-
+        .subtitle {
+          margin-bottom: 30px !important;
+        }
         .copyright {
           color: #54a9ab;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .logo {
+          top: -70px;
         }
       }
     </style>
@@ -80,7 +94,7 @@
             <img src="./assets/img/bezt-logo-white.png" width="130" />
           </div>
           <h1 class="fst-italic lh-1 mb-4">We are a stealth mode startup</h1>
-          <p class="mb-5 lorem-ipsum-color">
+          <p class="mb-5 subtitle">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a
             urna non sem porta maximus nec in ex.
           </p>
