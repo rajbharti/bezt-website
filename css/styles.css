@@ -11231,9 +11231,8 @@ video.bg-video {
 }
 .masthead .masthead-content {
   position: relative;
-  max-width: 40rem;
+  max-width: 45rem;
   padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 .masthead .masthead-content h1,
 .masthead .masthead-content .h1 {
@@ -11262,33 +11261,22 @@ video.bg-video {
 @media (min-width: 992px) {
   .masthead {
     height: 100%;
-    width: 75vw;
+    width: 55vw;
     min-height: 0;
     padding-bottom: 0;
   }
-  .masthead:before {
-    transform: skewX(-9deg);
-    transform-origin: top right;
-  }
+
   .masthead .masthead-content {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 2rem;
     padding-right: 9rem;
   }
-  .masthead .masthead-content h1,
-  .masthead .masthead-content .h1 {
-    font-size: 3.5rem;
-  }
   .masthead .masthead-content p {
     font-size: 1.3rem;
   }
 }
-@media (min-width: 1200px) {
-  .masthead {
-    width: 65vw;
-  }
-}
+
 .social-icons {
   position: relative;
   z-index: 2;
