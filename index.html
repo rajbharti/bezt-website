@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Bezt Labs Pvt. Ltd.</title>
@@ -40,9 +43,11 @@
       }
       .subtitle {
         color: #0aa8ab;
+        line-height: 24px;
       }
       .address {
-        line-height: 24px;
+        font-size: 16px !important;
+        line-height: 20px;
         color: #1e8183;
       }
       .copyright {
@@ -52,12 +57,16 @@
       }
 
       @media (max-width: 992px) {
-        .masthead .masthead-content {
-          padding-bottom: 1rem;
-        }
         .masthead .masthead-content h1 {
           font-size: 2rem;
         }
+      }
+
+      @media (max-width: 992px) {
+        .masthead .masthead-content {
+          padding-bottom: 1rem;
+        }
+
         .logo {
           top: -50px;
           img {
@@ -66,7 +75,6 @@
         }
         .subtitle {
           margin-bottom: 20px !important;
-          line-height: 24px;
         }
         .copyright {
           color: #54a9ab;
@@ -101,8 +109,8 @@
           <div class="logo">
             <img src="./assets/img/bezt-logo-white.png" width="130" />
           </div>
-          <h1 class="lh-1 mb-4">
-            Home to a disruptive game changer in the making
+          <h1 class="lh-sm mb-4">
+            Home to a disruptive <br />game changer in the making
           </h1>
           <p class="subtitle">
             We are currently a stealth mode startup for obvious reasons. Do
